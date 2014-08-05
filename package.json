@@ -1,0 +1,14 @@
+{
+  "name": "flickrSync",
+  "version": "0.1.0-alpha",
+  "description": "Picasa<=>Flickr synchronization",
+  "keywords": ["Picasa","Flickr","synchronization","sync"],
+  "author": "Eric Griffith <eric@griffithnet.com>",
+  "bugs": {"url": "https://github.com/beartums/flickerSync/issues"},
+  "license": "MIT",
+  "dependencies": {
+    "exiftool": "git://github.com/beartums/node-exiftool.git"
+  },
+  "repository" : {"type": "git", "url": "git://github.com/beartums/flickrSync.git"},
+  "engine": "node 0.10.x"
+}
