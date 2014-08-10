@@ -33,7 +33,7 @@ var Q = require('q')
 
     if (fsObj.type==='dir') {
       fsObj.children=[];
-      fsObj.iniFile = getIniFile(fullPath);
+      //fsObj.iniFile = getIniFile(fullPath);
       console.log(fullPath);
       var children = fs.readdirSync(fullPath);
       // Directories go into .children array.  Files get summarized in .files
